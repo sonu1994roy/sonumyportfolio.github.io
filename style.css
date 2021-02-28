@@ -59,6 +59,7 @@ li{
     right: 5%;
     bottom: 0%;
     width: 65rem;
+    z-index: -1;
 }
 @media only screen and (max-width: 996px){
     .header img{
