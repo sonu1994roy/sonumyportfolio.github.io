@@ -56,9 +56,9 @@ li{
 }
 .header img{
     position: absolute;
-    right: 5%;
+    right: 1%;
     bottom: 0%;
-    width: 65rem;
+    width: 63rem;
     z-index: -1;
 }
 @media only screen and (max-width: 996px){
@@ -96,6 +96,12 @@ li{
     box-shadow: #4e4e4e;
     z-index: 999;
 }
+/* .-link .remove.link{
+    background: none;
+}
+.scroll-link .remove.link:hover{
+    background: #3a3a3a78;
+} */
 
 .top-nav{
 display: none;
@@ -123,6 +129,8 @@ display: none;
 .nav-link:link,
 .nav-link:visited{
     color: #fff;
+    /* background: #00000078; */
+ border-radius: 40px;
     padding: 0.8rem;
     transition: all 300ms ease-in-out;
     font-family: 'RocknRoll One', sans-serif;
@@ -673,7 +681,7 @@ font-weight: 400;
 
          /* ...................................... */
          .seting{
-            position: absolute;
+            position: fixed;
             top: 10%;
             left: 3%;
             color: rgb(3, 6, 206);
@@ -681,9 +689,9 @@ font-weight: 400;
            z-index: 1;
             
         }
-        .seting a{
+        #seting-icon {
             display: block;
-            position: fixed;
+            position: absolute;
            padding: 10px 10px;
            margin: 0px 10px;
            cursor: pointer;
@@ -695,7 +703,7 @@ font-weight: 400;
             100%{-webkit-transform: rotate(360deg);}}
         @-moz-keyframes spin{100%{-webkit-transform: rotate(360deg);}}
         @keyframes spin{100%{-webkit-transform: rotate(360deg);}}
-        .seting a:hover{
+        #seting-icon:hover{
             color: #ff9050;
          -webkit-animation: none;
             -moz-animation: none;
@@ -706,6 +714,7 @@ font-weight: 400;
             width: 100%;
             height: 100%;
             padding: 10px 20px;
+            margin-top: 35px;
             border: 2px solid rgb(78, 78, 78);
             background-color: rgb(105, 105, 105);
             border-radius: 10px;
@@ -716,9 +725,7 @@ font-weight: 400;
         .open-seting i:hover{
             color: #ff9050
         }
-        .seting a:hover .open-seting{
+         .show-seting{
             display: block;
-        }
-        .seting a:hover .open-seting:hover{
-           color: #fff;
+            z-index: -1;
         }
