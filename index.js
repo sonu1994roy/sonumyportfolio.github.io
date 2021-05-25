@@ -75,7 +75,7 @@ function myyfunc() {
         })
             .type('<em><strong>Hii, </strong></em>', { delay: 200 })
             .type(" Morning", { delay: 200 })
-            .move(-10, { speed: 25, delay: 200 })
+            .move(-8, { speed: 25, delay: 200 })
             .type('Good')
             .move('START')
             .go();
@@ -104,7 +104,7 @@ function myyfunc() {
         })
             .type('<em><strong>Hii, </strong></em>', { delay: 200 })
             .type(" Evning", { delay: 200 })
-            .move(-10, { speed: 25, delay: 200 })
+            .move(-7, { speed: 25, delay: 200 })
             .type('Good')
             .move('START')
             .go();

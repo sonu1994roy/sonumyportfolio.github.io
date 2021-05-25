@@ -1,4 +1,4 @@
-*,
+
 * ::before,
 *::after{
     margin: 0;
@@ -32,7 +32,7 @@ li{
 
 }
 .container{
-    max-width: 114rem;
+    max-width: 100%;
     margin: 0 auto;
 }
 @media only screen and (max-width: 1200px){
@@ -96,12 +96,6 @@ li{
     box-shadow: #4e4e4e;
     z-index: 999;
 }
-/* .-link .remove.link{
-    background: none;
-}
-.scroll-link .remove.link:hover{
-    background: #3a3a3a78;
-} */
 
 .top-nav{
 display: none;
@@ -329,7 +323,6 @@ font-weight: 400;
      .right p{
          line-height: 2;
          margin-bottom: 2rem;
-         color: #333;
      }
      .right h1 span{
          color: #ff9050;
@@ -429,7 +422,7 @@ font-weight: 400;
             border-radius: 15px;
         }
         .skills-box .html{
-            width: 95%;
+            width: 90%;
         }
         .skills-box .css{
             width: 75%;
